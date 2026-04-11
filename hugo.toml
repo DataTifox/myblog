@@ -1,0 +1,8 @@
+#baseURL = 'https://你的GitHub用户名.github.io/'  # 本地测试时可先注释掉
+languageCode = 'zh-cn'
+title = '我的心情日记'
+theme = 'PaperMod'
+
+[params]
+  author = 'tian'
+  description = '记录日常，分享感悟'
