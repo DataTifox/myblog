@@ -1,8 +1,14 @@
 #baseURL = 'https://你的GitHub用户名.github.io/'  # 本地测试时可先注释掉
 languageCode = 'zh-cn'
-title = '我的心情日记'
+title = '猫猫大魔王的博客园'
 theme = 'PaperMod'
 
 [params]
-  author = 'tian'
+  #作者名
+  author = 'XinyuZhang'
+  #描述
   description = '记录日常，分享感悟'
+  # 开启主题的 ToC 功能
+  ShowToc = true
+  # (可选) 设为 true 可使 ToC 默认展开
+  TocOpen = true
