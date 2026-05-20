@@ -1,8 +1,13 @@
 #baseURL = 'https://你的GitHub用户名.github.io/'  # 本地测试时可先注释掉
 languageCode = 'zh-cn'
-title = '猫猫大魔王的博客园'
+title = '格心社'
 theme = 'PaperMod'
 
+# =======搜索功能=======
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# =======基本资料=======
 [params]
   #作者名
   author = 'XinyuZhang'
@@ -12,3 +17,38 @@ theme = 'PaperMod'
   ShowToc = true
   # (可选) 设为 true 可使 ToC 默认展开
   TocOpen = true
+  # 首页显示的文章来源 Section，暂时设置为全展示。
+  #mainSections = ["知识学习"]
+  # 归档页显示所有文章（不受 mainSections 限制）
+  ShowAllPagesInArchive = true
+
+# =======分类和标签设计=======
+[[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "知识学习"
+  url = "/知识学习"
+  weight = 20
+
+[[menu.main]]
+  name = "生活随笔"
+  url = "/生活随笔"
+  weight = 30
+
+[[menu.main]]
+  name = "归档"
+  url = "/archives"
+  weight = 40
+
+[[menu.main]]
+  name = "标签"
+  url = "/tags"
+  weight = 50
+
+[[menu.main]]
+  name = "搜索"
+  url = "/search"
+  weight = 60
