@@ -30,12 +30,12 @@ theme = 'PaperMod'
 
 [[menu.main]]
   name = "知识学习"
-  url = "/知识学习"
+  url = "/knowledge"
   weight = 20
 
 [[menu.main]]
   name = "生活随笔"
-  url = "/生活随笔"
+  url = "/life"
   weight = 30
 
 [[menu.main]]
